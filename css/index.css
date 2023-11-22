@@ -1,0 +1,114 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #659DBD;
+    height: 300vh;
+    width: 100%;
+    font-family: Verdana, Arial, serif;
+    overflow: hidden;
+}
+/* this is the nav flex box container  */
+.container {
+    /*border: 3px solid lightgray;*/
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.box {
+    width: 25rem;
+    height: 4rem;
+   /* background-color: gold;*/
+    margin: 1rem;
+}
+
+#box1 {
+    width: 40rem;
+}
+
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: -10%;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 	1.44rem;
+    padding-left: .5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid white;
+    padding-bottom: .5rem;
+}
+
+#logo{
+    width: 2.9rem;
+}
+
+#selected {
+    color: gray;
+}
+
+img {
+    display: inline-block;
+    position: relative;
+    top: 10%;
+}
+
+/* end of nav stuff  */
+
+.containerGrid {
+    display: grid;
+    grid-template: repeat(10, 100px) / repeat(10, 100px);
+    border: 3px solid lightgray;
+    overflow: hidden;
+}
+
+.boxes {
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+}
+
+.boexes1 {
+    height: 5rem;
+
+}
+
+#title {
+    width: 100%;
+    height: 100%;
+    /*background-color: gold;*/
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+
+h1 {
+    font-size:  1.2rem;
+    color: #2B7A78;
+}
+
+#textBellowTitle {
+    grid-row: 3;
+    grid-column: 1 / 4;
+    width: 100%;
+    height: 100%;
+    /*background-color: gold;*/
+}
+
+#textBellowTitle  > p {
+    color: lightgray;
+}
