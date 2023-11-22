@@ -71,7 +71,7 @@ img {
 
 #secondBody {
     display: flex;
-    border: 3px solid lightgray;
+    /*border: 3px solid lightgray;*/
     overflow: hidden;
     flex-wrap: wrap;
     /*height: 1000vh;*/
@@ -118,11 +118,41 @@ img {
 /* End of box two */
 
 #thirdBody {
+    background-color: #1d4b40;
     display: flex;
-    border: 3px solid lightgray;
+    /*border: 3px solid lightgray;*/
     overflow: hidden;
     flex-wrap: wrap;
     /*height: 1000vh;*/
-    justify-content: space-evenly;
-    margin: 1rem;
+    justify-content: space-around;
+    /*margin: 1rem;*/
+}
+
+#thirdBodyHeader {
+    width: 100%;
+    height: 7rem;
+    /*background-color: gold;*/
+}
+
+.longBoxes {
+    margin-top: 4rem;
+    width: 20rem;
+    height: 40rem;
+    /*background-color: gold;*/
+    overflow: hidden;
+}
+
+.longBoxes > img {
+    width: 20rem;
+    height: 40rem;
+    position: relative;
+    top: 1px;
+}
+
+#thirdBodyHeader > h2 {
+    color: antiquewhite;
+}
+
+#thirdBodyHeader > p {
+    color: antiquewhite;
 }
