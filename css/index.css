@@ -6,10 +6,9 @@
 
 body{
     background-color: #659DBD;
-    height: 300vh;
+    height: 400vh;
     width: 100%;
     font-family: Verdana, Arial, serif;
-    overflow: hidden;
 }
 /* this is the nav flex box container  */
 .container {
@@ -70,45 +69,34 @@ img {
 
 /* end of nav stuff  */
 
-.containerGrid {
-    display: grid;
-    grid-template: repeat(10, 100px) / repeat(10, 100px);
+#secondBody {
+    display: flex;
     border: 3px solid lightgray;
-    overflow: hidden;
+   /* overflow: hidden;*/
+    flex-wrap: wrap;
+    /*height: 1000vh;*/
+    justify-content: space-between;
 }
 
-.boxes {
-    width: 5rem;
-    height: 5rem;
+#boxes1 {
+    width: 20rem;
+    height: 25rem;
     background-color: gold;
+    overflow: hidden;
+    margin-top: 50px;
 }
 
-.boexes1 {
-    height: 5rem;
+#boxes2 {
+    width: 40rem;
+    height: 30rem;
+    /*background-color: red;*/
+    /*overflow: hidden;*/
 
 }
 
-#title {
-    width: 100%;
-    height: 100%;
-    /*background-color: gold;*/
-    grid-column: 1 / 4;
-    grid-row: 2;
-}
+#boxes2 > img {
+    width: 35rem;
+    height: 30rem;
+    padding-bottom: 5rem;
 
-h1 {
-    font-size:  1.2rem;
-    color: #2B7A78;
-}
-
-#textBellowTitle {
-    grid-row: 3;
-    grid-column: 1 / 4;
-    width: 100%;
-    height: 100%;
-    /*background-color: gold;*/
-}
-
-#textBellowTitle  > p {
-    color: lightgray;
 }
