@@ -73,7 +73,7 @@ img {
     display: flex;
     border: 3px solid lightgray;
    /* overflow: hidden;*/
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     /*height: 1000vh;*/
     justify-content: space-between;
 }
