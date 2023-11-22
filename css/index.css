@@ -169,14 +169,36 @@ img {
 /*start of footer */
 
 footer {
-    background-color: #1d4b40;
+    background-color: #424040;
     display: flex;
     /*border: 3px solid lightgray;*/
     overflow: hidden;
     flex-wrap: wrap;
-   /* height: 100vh;*/
-    justify-content: space-around;
+    height: 30vh;
     /*margin: 1rem;*/
+}
+
+#socialMedia {
+    position: relative;
+    left: 80%;
+}
+
+#socialMedia > ul{
+    list-style-type: none;
+}
+
+.name {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo {
+    vertical-align: middle;
+    transition: all .2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.5);
 }
 
 /* End of footer */
