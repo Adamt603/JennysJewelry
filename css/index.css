@@ -79,11 +79,19 @@ img {
 }
 
 #boxes1 {
-    width: 20rem;
+    width: 22rem;
     height: 25rem;
-    background-color: gold;
+   /* background-color: gold;*/
     overflow: hidden;
     margin-top: 50px;
+}
+
+#boxes1 > p {
+    color: #636161;
+}
+
+#boxes1 > h1 {
+    margin-bottom: 1rm;
 }
 
 #boxes2 {
