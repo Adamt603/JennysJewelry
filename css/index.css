@@ -126,7 +126,7 @@ img {
     overflow: hidden;
     flex-wrap: wrap;
     /*height: 1000vh;*/
-    justify-content: space-around;
+    justify-content: space-evenly;
     /*margin: 1rem;*/
 }
 
@@ -152,15 +152,15 @@ img {
 
 .longBoxes {
     margin-top: 4rem;
-    width: 20rem;
-    height: 40rem;
+    width: 12rem;
+    height: 30rem;
     /*background-color: gold;*/
     overflow: hidden;
 }
 
 .longBoxes > img {
-    width: 20rem;
-    height: 40rem;
+    width: 13rem;
+    height: 28rem;
     position: relative;
     top: 1px;
 }
@@ -174,7 +174,7 @@ footer {
     /*border: 3px solid lightgray;*/
     overflow: hidden;
     flex-wrap: wrap;
-    height: 100vh;
+   /* height: 100vh;*/
     justify-content: space-around;
     /*margin: 1rem;*/
 }
