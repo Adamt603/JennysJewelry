@@ -91,7 +91,8 @@ img {
 }
 
 #boxes1 > h1 {
-    margin-bottom: 1rm;
+    margin-bottom: 1.5rem;
+    line-height: 3.0rem;
 }
 
 #boxes2 {
