@@ -76,14 +76,16 @@ img {
     flex-wrap: wrap;
     /*height: 1000vh;*/
     justify-content: space-between;
+    margin: 1rem;
 }
 
+/* Beginning of box one */
 #boxes1 {
     width: 22rem;
     height: 25rem;
-   /* background-color: gold;*/
     overflow: hidden;
     margin-top: 50px;
+    /* background-color: gold;*/
 }
 
 #boxes1 > p {
@@ -95,11 +97,14 @@ img {
     line-height: 3.0rem;
 }
 
+/* End of box one */
+
+/* Beginning of box two */
 #boxes2 {
     width: 30rem;
     height: 30rem;
     /*background-color: red;*/
-    /*overflow: hidden;*/
+    overflow: hidden;
 
 }
 
@@ -108,4 +113,16 @@ img {
     height: 30rem;
     padding-bottom: 5rem;
 
+}
+
+/* End of box two */
+
+#thirdBody {
+    display: flex;
+    border: 3px solid lightgray;
+    overflow: hidden;
+    flex-wrap: wrap;
+    /*height: 1000vh;*/
+    justify-content: space-evenly;
+    margin: 1rem;
 }
