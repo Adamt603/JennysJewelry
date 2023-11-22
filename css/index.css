@@ -117,6 +117,8 @@ img {
 
 /* End of box two */
 
+/*Start of third body */
+
 #thirdBody {
     background-color: #1d4b40;
     display: flex;
@@ -134,6 +136,20 @@ img {
     /*background-color: gold;*/
 }
 
+#thirdBodyHeader > h2 {
+    color: antiquewhite;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+#thirdBodyHeader > p {
+    color: antiquewhite;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+
+
 .longBoxes {
     margin-top: 4rem;
     width: 20rem;
@@ -148,11 +164,19 @@ img {
     position: relative;
     top: 1px;
 }
+/*End of third body */
 
-#thirdBodyHeader > h2 {
-    color: antiquewhite;
+/*start of footer */
+
+footer {
+    background-color: #1d4b40;
+    display: flex;
+    /*border: 3px solid lightgray;*/
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-around;
+    /*margin: 1rem;*/
 }
 
-#thirdBodyHeader > p {
-    color: antiquewhite;
-}
+/* End of footer */
