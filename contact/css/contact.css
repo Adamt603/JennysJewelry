@@ -70,6 +70,44 @@ img {
 
 /* end of nav stuff  */
 
+/*start of contact */
+#contact{
+    /*background-color: gold;*/
+    display: flex;
+    /*border: 3px solid lightgray;*/
+    overflow: hidden;
+    flex-wrap: wrap;
+    /*margin: 1rem;*/
+    justify-content: center;
+}
+
+#contactBox {
+
+    width: 30rem;
+    height: 30rem;
+    /*background-color: red;*/
+}
+
+#contactBox > ul {
+    list-style-type: none;
+}
+
+.image {
+    width: 5rem;
+    vertical-align: middle;
+}
+
+#contactBox > ul {
+    margin-top: 3rem;
+}
+
+#contactBox > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+/*End of contact */
+
 /*start of footer */
 
 footer {
