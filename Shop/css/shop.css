@@ -5,8 +5,132 @@
 }
 
 body{
-    background-color: #659DBD;
-    height: 300vh;
+    background-color: #EDEADE;
+    /*height: 400vh;*/
     width: 100%;
     font-family: Verdana, Arial, serif;
 }
+
+/* this is the nav flex box container  */
+.container {
+    /*border: 3px solid lightgray;*/
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.box {
+    width: 25rem;
+    height: 4rem;
+    /* background-color: gold;*/
+    margin: 1rem;
+}
+
+#box1 {
+    width: 40rem;
+}
+
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: -10%;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 	1.44rem;
+    padding-left: .5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid white;
+    padding-bottom: .5rem;
+}
+
+#logo{
+    width: 2.9rem;
+}
+
+#selected {
+    color: #636161;
+}
+
+img {
+    display: inline-block;
+    position: relative;
+    top: 10%;
+}
+
+/* end of nav stuff  */
+
+
+/*Start of product picture stuff */
+.container1 {
+    /*border: 3px solid lightgray;*/
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.box3 {
+    width: 15rem;
+    overflow: hidden;
+    height: 25rem;
+    /*background-color: gold;*/
+    margin: 1rem;
+}
+
+.box3 > img {
+    width: 15rem;
+    height: 25rem;
+    position: relative;
+    top: 0.01px;
+}
+
+/*End of product picture stuff */
+
+/*start of footer */
+
+footer {
+    background-color: #424040;
+    display: flex;
+    /*border: 3px solid lightgray;*/
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 30vh;
+    /*margin: 1rem;*/
+}
+
+#socialMedia {
+    position: relative;
+    left: 80%;
+}
+
+#socialMedia > ul{
+    list-style-type: none;
+}
+
+.name {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo {
+    vertical-align: middle;
+    transition: all .2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.5);
+}
+
+/* End of footer */
+
