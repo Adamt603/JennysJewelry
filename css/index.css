@@ -167,6 +167,26 @@ img {
 }
 /*End of third body */
 
+/*Start of Fourth body */
+.fourthBody {
+    background-color: #1d4b40;
+    display: flex;
+    /*border: 3px solid lightgray;*/
+    overflow: hidden;
+    flex-wrap: wrap;
+    /*height: 1000vh;*/
+    justify-content: space-evenly;
+    /*margin: 1rem;*/
+}
+
+
+#jenImage {
+    width: 50rem;
+    height: 30rem;
+}
+
+/*End of Fourth body */
+
 /*start of footer */
 
 footer {
