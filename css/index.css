@@ -168,15 +168,13 @@ img {
 /*End of third body */
 
 /*Start of Fourth body */
-.fourthBody {
-    background-color: #1d4b40;
+#fourthBody {
     display: flex;
     /*border: 3px solid lightgray;*/
     overflow: hidden;
     flex-wrap: wrap;
     /*height: 1000vh;*/
     justify-content: space-evenly;
-    margin: 1rem;
 }
 
 .descriptionBox {
@@ -187,9 +185,18 @@ img {
     overflow: hidden;
 }
 
+#words {
+    padding-top: 4rem;
+}
+
+#words > p {
+    font-size: 2rem;
+}
+
+
 #jenImage {
     width: 100%;
-    height: 100%;
+    height: 25rem;
 }
 
 /*End of Fourth body */
